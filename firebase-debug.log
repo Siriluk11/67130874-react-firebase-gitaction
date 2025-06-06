@@ -1,13 +1,13 @@
-[debug] [2025-06-06T07:05:10.195Z] ----------------------------------------------------------------------
-[debug] [2025-06-06T07:05:10.198Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
-[debug] [2025-06-06T07:05:10.198Z] CLI Version:   14.6.0
-[debug] [2025-06-06T07:05:10.198Z] Platform:      win32
-[debug] [2025-06-06T07:05:10.198Z] Node Version:  v22.16.0
-[debug] [2025-06-06T07:05:10.199Z] Time:          Fri Jun 06 2025 14:05:10 GMT+0700 (เวลาอินโดจีน)
-[debug] [2025-06-06T07:05:10.199Z] ----------------------------------------------------------------------
+[debug] [2025-06-06T09:31:17.859Z] ----------------------------------------------------------------------
+[debug] [2025-06-06T09:31:17.861Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-06-06T09:31:17.862Z] CLI Version:   14.6.0
+[debug] [2025-06-06T09:31:17.862Z] Platform:      win32
+[debug] [2025-06-06T09:31:17.862Z] Node Version:  v22.16.0
+[debug] [2025-06-06T09:31:17.862Z] Time:          Fri Jun 06 2025 16:31:17 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-06-06T09:31:17.862Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-06-06T07:05:10.204Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2025-06-06T07:05:10.205Z] > authorizing via signed-in user (67130874@dpu.ac.th)
+[debug] [2025-06-06T09:31:17.866Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-06T09:31:17.866Z] > authorizing via signed-in user (67130874@dpu.ac.th)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -23,3 +23,42 @@ Before we get started, keep in mind:
 
   * You are currently outside your home directory
 
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-06-06T09:33:24.174Z] ----------------------------------------------------------------------
+[debug] [2025-06-06T09:33:24.177Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ASUS\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-06-06T09:33:24.177Z] CLI Version:   14.6.0
+[debug] [2025-06-06T09:33:24.178Z] Platform:      win32
+[debug] [2025-06-06T09:33:24.178Z] Node Version:  v22.16.0
+[debug] [2025-06-06T09:33:24.178Z] Time:          Fri Jun 06 2025 16:33:24 GMT+0700 (เวลาอินโดจีน)
+[debug] [2025-06-06T09:33:24.178Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-06-06T09:33:24.182Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-06-06T09:33:24.183Z] > authorizing via signed-in user (67130874@dpu.ac.th)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\react-sample
+
+Before we get started, keep in mind:
+
+  * You are currently outside your home directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
