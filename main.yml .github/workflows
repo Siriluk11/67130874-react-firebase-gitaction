@@ -1,38 +1,51 @@
 name: Firebase Deployment
+
 on:
   push:
     branches:
       - main
+
 jobs:
   build:
-    name: Build
+    name: Build React App
     runs-on: ubuntu-22.04
+
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
       - name: Install Dependencies
-        run: npm install      
-      - name: Build
-        env:
-          CI: true        
+        run: npm install
+
+      - name: Build Project
         run: npm run build
-      - name: Archive Production Artifact
+
+      - name: Upload Build Folder
         uses: actions/upload-artifact@v4
         with:
           name: build
           path: build
+
   deploy:
-    name: Deploy
+    name: Deploy to Firebase Hosting
     needs: build
-    runs-on: ubuntu- 22.04
+    runs-on: ubuntu-22.04
+
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v3
-      - name: Download Artifact
+
+      - name: Download Build Artifact
         uses: actions/download-artifact@v4
         with:
           name: build
           path: build
+
       - name: Deploy to Firebase
         uses: w9jds/firebase-action@master
         with:
